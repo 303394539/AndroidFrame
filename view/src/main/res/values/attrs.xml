@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GlideImageView">
+        <attr name="placeholder" format="reference"></attr>
+        <attr name="radius" format="dimension"></attr>
+        <attr name="radiusBottomLeft" format="dimension"></attr>
+        <attr name="radiusBottomRight" format="dimension"></attr>
+        <attr name="radiusTopLeft" format="dimension"></attr>
+        <attr name="radiusTopRight" format="dimension"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="HeaderRecyclerView">
+        <attr name="headerLayout" format="reference"></attr>
+        <attr name="footerLayout" format="reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="AlphaSafeWebView">
+        <attr name="jsObject" format="reference|string"></attr>
+        <attr name="url" format="reference|string"></attr>
+        <attr name="openBrowser" format="reference|boolean"></attr>
+        <attr name="verticalScrollBar" format="reference|boolean"></attr>
+        <attr name="horizontalScrollBar" format="reference|boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="LoadingView">
+        <attr name="render" format="enum">
+            <enum name="Level" value="0"></enum>
+            <enum name="Gear" value="1"></enum>
+            <enum name="Whorl" value="2"></enum>
+            <enum name="Material" value="3"></enum>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="BannerView">
+        <attr name="isLoop" format="reference|boolean"></attr>
+        <attr name="isAuto" format="reference|boolean"></attr>
+        <attr name="expires" format="reference|integer"></attr>
+        <attr name="progressLayoutMarginBottom" format="reference|integer"></attr>
+        <attr name="progressSpaceWidth" format="reference|integer"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="ToggleButtonView">
+        <attr name="borderWidth" format="dimension">
+        </attr>
+        <attr name="offBorderColor" format="reference|color">
+        </attr>
+        <attr name="offColor" format="reference|color">
+        </attr>
+        <attr name="onColor" format="reference|color">
+        </attr>
+        <attr name="spotColor" format="reference|color">
+        </attr>
+        <attr name="animate" format="reference|boolean">
+        </attr>
+        <attr name="isDefaultOn" format="reference|boolean">
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="GlidePhotoView">
+    </declare-styleable>
+</resources>

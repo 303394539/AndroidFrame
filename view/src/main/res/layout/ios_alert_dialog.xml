@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ios_alert_dialog_border"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ios_alert_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="提示"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/ios_alert_dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:text="内容"
+        android:visibility="gone"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/ios_alert_dialog_btn_box"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#C3C3C3"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/ios_alert_dialog_left_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="gone"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/ios_alert_dialog_left_btn_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="取消"
+                    android:textSize="14sp"
+                    android:textColor="@color/ios_text_blue" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/ios_alert_dialog_btn_space"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#C3C3C3"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:id="@+id/ios_alert_dialog_right_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:visibility="gone"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/ios_alert_dialog_right_btn_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="确认"
+                    android:textSize="14sp"
+                    android:textColor="@color/ios_text_blue" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
